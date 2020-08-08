@@ -1,0 +1,33 @@
+html, body, #root {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#score {
+    font-size: x-large;
+}
+
+#colorStr {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#ballContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.ball {
+    height: 60px;
+    width: 60px;
+    border: 2px gray solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
